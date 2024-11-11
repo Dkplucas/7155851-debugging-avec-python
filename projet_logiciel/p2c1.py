@@ -2,6 +2,9 @@
 
 from random import randint 
 import datetime
+from tkinter import *
+from PIL import Image, ImageTk
+import pdb
 
 """
 print("Bienvenue dans le jeu Pierre Feuille Ciseaux")
@@ -12,7 +15,7 @@ annee_de_naissance = 2000
 
 print(f"Bonjour {nom}, nous sommes en {annee_actuelle}, du coup tu as {int(annee_actuelle) - annee_de_naissance}.")
 """
-
+pdb.set_trace()
 class PierreFeuilleCiseaux :
     """
     Classe qui permet de jouer au jeu Pierre Feuille Ciseaux, de mettre à jour le score
